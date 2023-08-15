@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+
+.topPageTitle {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(122, 0, 71);
+    text-align: left;
+}
+
+.topPageSubTitle {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #000000;
+}
+
+.hyperLinks{
+    text-align: center;
+    position: relative;
+}
+
+.link{
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin: 1%;
+}
+
+.link:hover{
+    color: rgb(122, 0, 71)
+}
+
+.gitHubProjects{
+    display: grid;
+}
+
+.footer-copyright{
+    display: inline-flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
